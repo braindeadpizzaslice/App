@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kevi2706\\source\\repos\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
               "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T10:18:16.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -43,7 +43,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T08:27:05.309Z"
+              "WhenOpened": "2025-08-11T08:27:05.309Z",
+              "EditorCaption": ""
             }
           ]
         }
