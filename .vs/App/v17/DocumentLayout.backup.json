@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevi2706\\source\\repos\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\opgaveclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:opgaveclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\opgaveClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:opgaveClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "opgaveClass.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\opgaveClass.cs",
-              "RelativeDocumentMoniker": "opgaveClass.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\opgaveClass.cs",
-              "RelativeToolTip": "opgaveClass.cs",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T11:13:40.823Z",
+              "WhenOpened": "2025-08-11T08:27:05.309Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
-              "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
-              "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Title": "opgaveClass.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\opgaveClass.cs",
+              "RelativeDocumentMoniker": "opgaveClass.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\opgaveClass.cs",
+              "RelativeToolTip": "opgaveClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T10:18:16.515Z"
+              "WhenOpened": "2025-08-11T11:13:40.823Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\7 august opgaver\\App\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T08:27:05.309Z",
+              "WhenOpened": "2025-08-11T10:18:16.515Z",
               "EditorCaption": ""
             }
           ]
