@@ -4,10 +4,15 @@
     {
         static void Main(string[] args)
         {
-            OpgaveClass.OpgaveMethod();
-            
-            MainMenu.MainMenuMethod(); 
-             
+            while (true)
+            {
+                MainMenu.MainMenuMethod();
+                OpgaveClass.OpgaveMethod();
+
+
+
+
+            }
         }
     }
 }
