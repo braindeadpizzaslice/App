@@ -11,73 +11,106 @@ public class OpgaveClass
 		while (true)
 		{
 			Console.WriteLine("what would you like to do?");
-			Console.WriteLine("enter assignment");
-			Console.WriteLine("show list");
-			Console.WriteLine("manage assignments");
-			Console.WriteLine("close program");
-			Console.WriteLine("return");
-			string userinpit = Console.ReadLine();
-			string manageinput = Console.ReadLine();
+			Console.WriteLine("type in what you would like to do or the corresponding number");
+			Console.WriteLine("1->enter assignment");
+			Console.WriteLine("2->show list");
+			Console.WriteLine("3->manage assignments");
+			Console.WriteLine("4->return to main menu");
+			Console.WriteLine("5->close program");
+			string userinput = Console.ReadLine();
 
-			
 
-			
-			switch (userinpit)
+
+
+
+			switch (userinput)
 			{
-				case "assignment":
-					
+                //the user might find it easier to shorten assignment so making sure other options work aswell show and list all work
+                //doing the same for the other cases aswell
+                case "assignment":
+				case "task":
+				case "job":
+				case "role":
+				case "1":
+
+
 					Console.Clear();
 					Console.WriteLine("insert your assignment you would like to add");
 					string newassignment = Console.ReadLine();
-					if (!string.IsNullOrEmpty(newassignment)) 
+					if (!string.IsNullOrEmpty(newassignment))
 					{
 						opgaveliste.Add(newassignment);
 						Console.WriteLine("done");
-						
+						Console.Clear() ;
 
-						if (opgaveliste.Count >=5 )
+
+						if (opgaveliste.Count >= 5)
 						{
 							Console.WriteLine("cant add anymore list is full");
 						}
 					}
 					break;
+					
 				case "show list":
+				case "show":
+				case "list":
+				case "2":
 					Console.Clear();
-					Console.WriteLine("heres the list");
-					if (opgaveliste.Count == 0) 
+					
+					
+					if (opgaveliste.Count == 0)
 					{
 						Console.WriteLine("list is empty");
 					}
 					else
 					{
-						foreach (string i in opgaveliste) { Console.WriteLine(i); }
+                        Console.WriteLine("heres the list");
+                        foreach (string i in opgaveliste) { Console.WriteLine(i); }
 					}
-					break ;
+				
+			Console.WriteLine("would you like to return to the main menu?");
+					
+			Console.ReadKey(true);
+					Console.Clear();
+			break;
+					
 				case "manage":
+				case "manage assignment":
+				case "3":
 					Console.Clear();
 					Console.WriteLine("insert the item  you would like to have marked as finished ");
-					manageinput = Console.ReadLine();
-					if (opgaveliste.Contains (manageinput))
+					
+					userinput = Console.ReadLine();
+					if (opgaveliste.Contains (userinput))
 					{
-					opgaveliste.Add(manageinput + "-finished task");
-					opgaveliste.Remove(manageinput);
+					opgaveliste.Add(userinput + "-finished task");
+					opgaveliste.Remove(userinput);
+						Console.Clear();
 					}
 					else
 					{
 						Console.WriteLine("item does not exist in the list");
+						Console.ReadLine();
+						Console.Clear();
 					}
 					break ;
-				case "return":
-					return;
+				case "return ":
+				case "4":
+				case "return to main menu":
+					Console.Clear();
+					MainMenu.MainMenuMethod();
+					break ;
 					
 
 				case "close program":
-							Environment.Exit(0);
-							break;
+				case "close":
+				case "5":
+					Environment.Exit(0);
+					return;
 
-						default:
-							break;
-						}
+				default:
+					break;
+				}
 		}
 	}
     
