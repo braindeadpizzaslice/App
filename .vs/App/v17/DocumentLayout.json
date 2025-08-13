@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevi2706\\source\\repos\\App\\",
+  "WorkspaceRootPath": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\new projekt august\\opgaveclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:opgaveclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\new projekt august\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\app\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\new projekt august\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|c:\\users\\kevi2706\\source\\repos\\new projekt august\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{710E9211-D2DE-4D0C-9959-A9AD8BEC711E}|App.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\MainMenu.cs",
               "RelativeDocumentMoniker": "MainMenu.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\MainMenu.cs",
               "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwCsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T10:18:16.515Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAKsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-13T07:38:51.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "opgaveClass.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\opgaveClass.cs",
+              "RelativeDocumentMoniker": "opgaveClass.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\opgaveClass.cs*",
+              "RelativeToolTip": "opgaveClass.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:48:09.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\App\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\App\\Program.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T08:27:05.309Z",
               "EditorCaption": ""

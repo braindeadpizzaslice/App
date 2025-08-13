@@ -4,8 +4,8 @@ public class MainMenu
 {
 	public static void MainMenuMethod()
 	{
-        string[] mainmenuoptions = { "main menu", "Tilføj opgaver", "se alle opgaver\t", "afslut program\t" };
-        int Mainmenuselect = 0;
+        string[] mainmenuoptions = { "main menu", "start", "se alle opgaver\t", "afslut program\t" };
+        int Mainmenuselect = 1;
         
         while (true)
 		{
@@ -18,7 +18,7 @@ public class MainMenu
 			for (int i = 0; i < mainmenuoptions.Length; i++)
 			{
 
-				Console.WriteLine((i == Mainmenuselect ? " * " : " * ") + mainmenuoptions[i] + (i == Mainmenuselect ? "<--" : ""));
+				Console.WriteLine((i == Mainmenuselect ? " * " : " * ") + mainmenuoptions[i] +  (i == Mainmenuselect ? "<--" : ""));
 
 			}
             var keypressed = Console.ReadKey(true);
@@ -41,11 +41,15 @@ public class MainMenu
 					switch (Mainmenuselect)
 					{
 						case 1:
+						Console.Clear ();
 						OpgaveClass.OpgaveMethod();
 						break;
 
 					case 2:
-						Environment.Exit(0);
+						
+						break;
+						case 3:
+							Environment.Exit(0);
 						break;
 						default:
 							break;

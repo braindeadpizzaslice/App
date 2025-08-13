@@ -5,6 +5,8 @@ public class OpgaveClass
 	public static void OpgaveMethod()
 	{
 		List<string> opgaveliste = new List<string>();
+		
+		
 
 		while (true)
 		{
@@ -13,14 +15,17 @@ public class OpgaveClass
 			Console.WriteLine("show list");
 			Console.WriteLine("manage assignments");
 			Console.WriteLine("close program");
+			Console.WriteLine("return");
 			string userinpit = Console.ReadLine();
 			string manageinput = Console.ReadLine();
 
-			//each case is a different scenario depending on what the user typed 
-			//entering "assignment" allows the user to add their assignment to the list and the rest is self explanatory 
+			
+
+			
 			switch (userinpit)
 			{
 				case "assignment":
+					
 					Console.Clear();
 					Console.WriteLine("insert your assignment you would like to add");
 					string newassignment = Console.ReadLine();
@@ -61,7 +66,10 @@ public class OpgaveClass
 					{
 						Console.WriteLine("item does not exist in the list");
 					}
-					break;
+					break ;
+				case "return":
+					return;
+					
 
 				case "close program":
 							Environment.Exit(0);
@@ -72,4 +80,5 @@ public class OpgaveClass
 						}
 		}
 	}
+    
 }
