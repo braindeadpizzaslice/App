@@ -4,7 +4,7 @@ public class MainMenu
 {
 	public static void MainMenuMethod()
 	{
-        string[] mainmenuoptions = { "main menu", "start", "se alle opgaver\t", "afslut program\t" };
+        string[] mainmenuoptions = { "main menu", "start",  "afslut program\t" };
         int Mainmenuselect = 1;
         
         while (true)
