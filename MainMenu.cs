@@ -31,7 +31,7 @@ public class MainMenu
 				{
 					Mainmenuselect++;
 				}
-				else if (keypressed.Key == ConsoleKey.UpArrow && Mainmenuselect >= 1)
+				else if (keypressed.Key == ConsoleKey.UpArrow && Mainmenuselect > 1)
 				{
 					Mainmenuselect--;
 				}
@@ -45,12 +45,13 @@ public class MainMenu
 						OpgaveClass.OpgaveMethod();
 						break;
 
-					case 2:
+				
 						
-						break;
+						
 						case 3:
 							Environment.Exit(0);
 						break;
+
 						default:
 							break;
 					}

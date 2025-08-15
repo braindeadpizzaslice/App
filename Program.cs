@@ -6,6 +6,7 @@
         {
             while (true)
             {
+               
                 MainMenu.MainMenuMethod();
                 OpgaveClass.OpgaveMethod();
 

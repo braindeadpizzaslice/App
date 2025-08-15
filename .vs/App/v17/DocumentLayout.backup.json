@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -36,9 +36,23 @@
               "RelativeDocumentMoniker": "MainMenu.cs",
               "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\MainMenu.cs",
               "RelativeToolTip": "MainMenu.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T10:18:16.515Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T08:27:05.309Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -61,24 +75,11 @@
               "Title": "opgaveClass.cs",
               "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\opgaveClass.cs",
               "RelativeDocumentMoniker": "opgaveClass.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\opgaveClass.cs",
-              "RelativeToolTip": "opgaveClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\opgaveClass.cs*",
+              "RelativeToolTip": "opgaveClass.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAADgAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T06:48:09.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\kevi2706\\source\\repos\\new projekt august\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T08:27:05.309Z",
               "EditorCaption": ""
             }
           ]

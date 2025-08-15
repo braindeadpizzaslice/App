@@ -32,24 +32,31 @@ public class OpgaveClass
 				case "job":
 				case "role":
 				case "1":
+				case "enter assignment":
+
 
 
 					Console.Clear();
 					Console.WriteLine("insert your assignment you would like to add");
 					string newassignment = Console.ReadLine();
-					if (!string.IsNullOrEmpty(newassignment))
+
+					if (!string.IsNullOrEmpty(newassignment) && !(opgaveliste.Count >= 5))
 					{
+
 						opgaveliste.Add(newassignment);
 						Console.WriteLine("done");
-						Console.Clear() ;
+						Console.Clear();
 
-
-						if (opgaveliste.Count >= 5)
-						{
-							Console.WriteLine("cant add anymore list is full");
-						}
 					}
-					break;
+					else if (opgaveliste.Count >= 5)
+					{
+						Console.WriteLine("invalid input list is full");
+					}
+					else if (string.IsNullOrEmpty(newassignment))
+					{
+						Console.WriteLine("invalid input string is empty");
+					}
+						break;
 					
 				case "show list":
 				case "show":
@@ -70,8 +77,7 @@ public class OpgaveClass
 				
 			Console.WriteLine("would you like to return to the main menu?");
 					
-			Console.ReadKey(true);
-					Console.Clear();
+			
 			break;
 					
 				case "manage":
